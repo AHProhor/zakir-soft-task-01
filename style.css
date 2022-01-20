@@ -1,0 +1,62 @@
+body {
+  font-family: "Epilogue", sans-serif;
+}
+/* Header section css */
+.navigationSection {
+  background-color: rebeccapurple;
+}
+.navbarStyle {
+  display: flex;
+  background-color: red;
+  justify-content: space-between;
+}
+.companyName {
+  display: flex;
+}
+.navbarService {
+  display: flex;
+  justify-content: space-between;
+}
+.headingStyle {
+  text-align: center;
+}
+/*popular blog style */
+.popularBlog {
+  display: flex;
+  justify-content: center;
+  background-color: seagreen;
+}
+
+/* Running Blogs section */
+
+.runningBlogsStyle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(224, 68, 6);
+}
+/* newsletter style */
+.newsletterStyle {
+  display: flex;
+  justify-content: space-between;
+  background-color: springgreen;
+}
+/* Contact section */
+.contactSectionStyle {
+  display: flex;
+  justify-content: center;
+  background-color: violet;
+}
+/* Company info */
+.companyInfoStyle {
+  display: flex;
+  justify-content: space-between;
+}
+/* Footer section */
+.footerStyle {
+  display: flex;
+  justify-content: space-between;
+}
+.policyStyle {
+  display: flex;
+  justify-content: space-between;
+}
