@@ -1,62 +1,237 @@
 body {
   font-family: "Epilogue", sans-serif;
+  background-color: #f3d1bf;
+  margin: 0px;
+  padding: 0px;
 }
 /* Header section css */
 .navigationSection {
-  background-color: rebeccapurple;
+  background-color: rgba(5, 2, 15, 0.938);
+  height: 350px;
+  color: aliceblue;
 }
 .navbarStyle {
   display: flex;
-  background-color: red;
   justify-content: space-between;
 }
 .companyName {
   display: flex;
+  margin-left: 100px;
+}
+.companyName a {
+  margin-right: 10px;
+  font-size: 30px;
 }
 .navbarService {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+}
+.navbarService a {
+  margin-left: 100px;
+  padding: 30px;
+  text-decoration: none;
+  color: #ffff;
+}
+#contactButtonStyle {
+  width: 138px;
+  height: 40px;
+  margin-right: 150px;
+  margin-top: 20px;
+  background-color: rgba(5, 2, 15, 0.938);
+  color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 800;
 }
 .headingStyle {
   text-align: center;
+}
+.headingStyle h1 {
+  font-size: 72px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.headingStyle p {
+  font-size: 16px;
+  font-style: normal;
+  color: lightgrey;
+}
+.underline {
+  height: 10px;
+  color: #dd9670;
 }
 /*popular blog style */
 .popularBlog {
   display: flex;
   justify-content: center;
-  background-color: seagreen;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #5c2000;
 }
-
+.popularBlog img {
+  width: 700px;
+  height: 350px;
+  border-radius: 6px;
+}
+.specificPopularBlog {
+  margin-right: 50px;
+}
+.underLineStyle {
+  margin: 50px 210px;
+  align-items: center;
+  border: 1px solid #eb8249;
+}
+.popularBlog h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+}
+.popularBlog h5 {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
 /* Running Blogs section */
 
 .runningBlogsStyle {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: rgb(224, 68, 6);
+  grid-gap: 30px;
+  color: #5c2000;
+  margin: 50px 210px;
+}
+.runningBlogsStyle img {
+  height: 270px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.runningBlogsStyle h1 {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+}
+.runningBlogsStyle h5 {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#loadButton {
+  margin: auto;
+  display: block;
+  padding: 18px 43px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 0px;
+  border-radius: 9px;
+  font-weight: 800;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /* newsletter style */
 .newsletterStyle {
   display: flex;
   justify-content: space-between;
-  background-color: springgreen;
+  margin: 0px 220px;
+}
+.newsletterStyle h1 {
+  font-size: 48px;
+  color: #5c2000;
+}
+#inputFieldStyle {
+  width: 370px;
+  height: 48px;
+  border: 1px solid;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0px;
+  background-color: #ffffff;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+#subscibeButtonStyle {
+  width: 170px;
+  height: 48px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0px;
+  background-color: #ffffff;
+  font-weight: 800;
 }
 /* Contact section */
 .contactSectionStyle {
   display: flex;
-  justify-content: center;
-  background-color: violet;
+  background-color: #ef6d58;
+  margin: 50px 200px;
+  padding: 50px;
+  border-radius: 6px;
+}
+#contactTextStyle {
+  margin-left: 50px;
+}
+.contactSectionStyle h1 {
+  font-size: 56px;
+  font-weight: 800;
+  color: #ffffff;
+}
+.contactSectionStyle p {
+  font-size: 16px;
+  font-weight: 400;
+  color: lightgray;
+}
+
+#contactNowButtonStyle {
+  width: 170px;
+  height: 48px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0px;
+  background-color: #ffffff;
+  font-weight: 800;
 }
 /* Company info */
 .companyInfoStyle {
   display: flex;
   justify-content: space-between;
+  margin: 50px 200px;
+}
+.companyInfoStyle h4 {
+  font-size: 24px;
+}
+.companyInfoStyle h5 {
+  color: #ef6d58;
+  font-size: 16px;
+}
+.companyInfoStyle h6 {
+  font-size: 16px;
+  color: #391400;
+  font-weight: normal;
+}
+.fab {
+  background-color: #ef6d58;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 50px;
+  color: #ffffff;
 }
 /* Footer section */
 .footerStyle {
   display: flex;
   justify-content: space-between;
+  margin: 50px 210px;
+  color: #391400;
+  font-size: 16px;
+  font-weight: normal;
 }
 .policyStyle {
   display: flex;
   justify-content: space-between;
+}
+.policyStyle h5 {
+  margin-left: 68px;
 }
