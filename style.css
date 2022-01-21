@@ -3,6 +3,7 @@ body {
   background-color: #f3d1bf;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 /* Header section css */
 .navigationSection {
@@ -61,6 +62,15 @@ body {
   font-size: 16px;
   font-style: normal;
   color: #ffffff70;
+}
+.menuButton {
+  font-size: 30px;
+  color: #ffffff;
+  float: right;
+  cursor: pointer;
+  display: none;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 .underline {
   height: 10px;
@@ -244,4 +254,114 @@ body {
 }
 .policyStyle h5 {
   margin-left: 68px;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+  .navigationSection {
+    width: auto;
+  }
+  .companyName {
+    margin: 0;
+    margin-left: 10px;
+  }
+  .menuButton {
+    display: block;
+  }
+  .navbarService {
+    display: none;
+  }
+  #contactButtonStyle {
+    display: none;
+  }
+  .headingStyle h1 {
+    font-size: 56px;
+    font-weight: 800;
+    font-style: normal;
+  }
+  /*  */
+  .popularBlog {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  #imageResponsive {
+    width: 350px;
+    height: 250px;
+  }
+  .popularBlog h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  /*  */
+  .runningBlogsStyle {
+    grid-template-columns: auto;
+    margin-left: 0px;
+    margin-left: 20px;
+  }
+  #loadButton {
+    margin: 0px;
+    margin-left: 95px;
+  }
+  /*  */
+  .newsletterStyle {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .newsletterStyle h1 {
+    margin-left: 10px;
+  }
+  #inputFieldStyle {
+    width: 320px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  #subscibeButtonStyle {
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  /*  */
+  .contactSectionStyle {
+    flex-direction: column-reverse;
+    background-color: #ef6d58;
+    width: 280px;
+    margin: 0px auto;
+  }
+  .contactSectionStyle h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0px;
+  }
+  .contactSectionStyle img {
+    height: 273px;
+    width: 273px;
+  }
+  #contactTextStyle {
+  }
+  #contactPara {
+    font-size: 10px;
+  }
+  /*  */
+  .companyInfoStyle {
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #iconResponse a {
+    font-size: 20px;
+  }
+  /*  */
+  .footerStyle {
+    width: 330px;
+    margin: 0 auto;
+  }
+
+  .underLineStyle {
+    color: #dd9670;
+    width: 350px;
+    margin-left: 0px;
+    margin-left: 20px;
+  }
 }
