@@ -6,7 +6,7 @@ body {
 }
 /* Header section css */
 .navigationSection {
-  background-color: rgba(5, 2, 15, 0.938);
+  background-color: rgba(40, 41, 62);
   height: 350px;
   color: aliceblue;
 }
@@ -21,6 +21,10 @@ body {
 .companyName a {
   margin-right: 10px;
   font-size: 30px;
+  margin-top: 10px;
+}
+.companyName h3 {
+  margin-top: 30px;
 }
 .navbarService {
   display: flex;
@@ -37,9 +41,9 @@ body {
   height: 40px;
   margin-right: 150px;
   margin-top: 20px;
-  background-color: rgba(5, 2, 15, 0.938);
+  background-color: rgba(40, 41, 62);
   color: #ffffff;
-  border: 1px solid lightgray;
+  border: 1px solid #ffffff70;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 800;
@@ -50,12 +54,13 @@ body {
 .headingStyle h1 {
   font-size: 72px;
   font-weight: 800;
+  font-style: normal;
   margin-bottom: 30px;
 }
 .headingStyle p {
   font-size: 16px;
   font-style: normal;
-  color: lightgrey;
+  color: #ffffff70;
 }
 .underline {
   height: 10px;
@@ -86,6 +91,7 @@ body {
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
+  margin: 0px;
 }
 .popularBlog h5 {
   font-size: 20px;
@@ -166,6 +172,8 @@ body {
 /* Contact section */
 .contactSectionStyle {
   display: flex;
+  height: 544px;
+  justify-content: space-between;
   background-color: #ef6d58;
   margin: 50px 200px;
   padding: 50px;
@@ -178,6 +186,7 @@ body {
   font-size: 56px;
   font-weight: 800;
   color: #ffffff;
+  margin-top: 100px;
 }
 .contactSectionStyle p {
   font-size: 16px;
@@ -193,6 +202,7 @@ body {
   border: 0px;
   background-color: #ffffff;
   font-weight: 800;
+  margin-top: 50px;
 }
 /* Company info */
 .companyInfoStyle {
