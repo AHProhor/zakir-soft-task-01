@@ -89,7 +89,7 @@ body {
   height: 350px;
   border-radius: 6px;
 }
-.specificPopularBlog {
+#specificPopularBlog {
   margin-right: 50px;
 }
 .underLineStyle {
